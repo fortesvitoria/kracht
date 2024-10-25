@@ -38,6 +38,14 @@ nav {
     background-color: var(--grafite);
 }
 
+ul {
+    
+}
+
 li {
     display: inline-block;
+}
+
+.icone-logo {
+    width: 56px;
 }
