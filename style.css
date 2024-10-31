@@ -80,7 +80,8 @@ header li {
     vertical-align: middle;
 }
 
-h1 {
+h1, 
+footer h2 {
     color: var(--branco);
     font-size: 40px;
     text-transform: uppercase;
@@ -118,10 +119,11 @@ footer {
     display: inline-block;
 }
 
-h5 {
+.titulo-links {
     color: var(--branco);
     font-size: 16px;
     text-transform: uppercase;
+    font-weight: 700;
     margin: 10px 0;
 }
 
@@ -147,6 +149,7 @@ footer li {
 .coluna-links {
     text-align: start;    
     vertical-align: top;
+    margin: 0 20px;
 }
 
 .links-footer {
