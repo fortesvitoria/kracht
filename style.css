@@ -58,12 +58,12 @@ nav * {
     width: 56px;
 }
 
-.logo-nav {
+.logo-div {
     text-align: start;
     width: 25%;
 }
 
-.logo-nav img, h1 {
+.logo-div img, h1 {
     vertical-align: middle;
 }
 
@@ -98,7 +98,7 @@ li a:hover {
     vertical-align: middle;
 }
 
-RODAPÉ
+/* RODAPÉ */
 footer {
     background-color: var(--grafite);
     width: 100%;
