@@ -98,7 +98,13 @@ li a:hover {
     vertical-align: middle;
 }
 
-
+RODAPÉ
+footer {
+    background-color: var(--grafite);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
 
 
 
