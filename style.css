@@ -41,6 +41,7 @@ a {
     text-decoration: none;      
 }
 
+
 /* CABEÇALHO */
 
 nav {
@@ -52,6 +53,16 @@ nav {
 
 nav * {
     display: inline-block;
+}
+
+header ul {    
+    list-style: none;
+    vertical-align: middle;
+    width: 40%;
+}
+
+header li {
+    padding: 10px;
 }
 
 /* CABEÇALHO E RODAPÉ*/
@@ -76,17 +87,6 @@ h1 {
     display: inline-block;
 }
 
-
-header ul {    
-    list-style: none;
-    vertical-align: middle;
-    width: 40%;
-}
-
-header li {
-    padding: 10px;
-}
-
 li a:hover {
     border-bottom: solid 2px var(--laranja);
 }
@@ -100,6 +100,10 @@ li a:hover {
     vertical-align: middle;
 }
 
+hr {
+    margin: 15px;
+}
+
 /* RODAPÉ */
 footer {
     background-color: var(--grafite);
@@ -108,10 +112,20 @@ footer {
     text-align: center;
 }
 
+.div-logo-rodape {
+    text-align: start;
+    /* width: 40%; */
+}
+
 h5 {
     color: var(--branco);
     font-size: 16px;
     text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.icones-redes img {
+    padding: 15px 09px;
 }
 
 footer ul {    
@@ -128,11 +142,50 @@ footer li {
 
 .links-footer {
     display: inline-block;
+    width: 60%;
+    text-align: end;
 }
 
+.coluna-links {
+    text-align: justify;
+}
+.secao-inferior-footer  {
+    width: 100%;    
+    vertical-align: middle;
+    padding: 15px;
+    font-weight: 600;
+}
+.secao-inferior-footer p, 
+.direitos-autorais, 
+.idioma, 
+.icone-idioma {
+    display: inline-block;    
+    vertical-align: middle;
+}
 
 .coluna-links a {
+    cursor: pointer;
+}
+.coluna-links a, 
+.secao-inferior-footer p
+ {
+    color: var(--branco);
     font-size: 14px;
+}
+
+.secao-inferior-footer img {
+    width: 32px;
+}
+
+.direitos-autorais {
+    width: 46%;
+    text-align: start;
+}
+.idioma, 
+.icone-idioma {
+    text-transform: uppercase;
+    width: 46%;
+    text-align: end;
 }
 
 
