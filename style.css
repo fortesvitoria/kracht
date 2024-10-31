@@ -159,6 +159,10 @@ footer li {
     vertical-align: top;
 }
 
+li .link-footer {
+    line-height: 25px;
+}
+
 .secao-inferior-footer  {
     width: 100%;    
     vertical-align: middle;
