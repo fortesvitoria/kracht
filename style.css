@@ -1,51 +1,104 @@
-/* importa fonte principal */
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+/* importa fonte principal GOLDMAN */
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
 
-/* importa fonte scundaria */
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* importa fonte secundaria OPEN SANS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 
 /* cria variáveis */
 :root {
---fonte-principal: "Exo 2", sans-serif;
+--fonte-principal: "Goldman", sans-serif;
 --fonte-secundaria: "Open Sans", sans-serif;
 
---preto: #2C2727;
---grafite: #454545;
---branco: #FFFFFF;
-
+--preto: #000;
+--grafite: #2C2727;
+--branco: #FFF;
+--off-white: #F1F1F1;
 --laranja-escuro: #DC5F00;
 --laranja: #FF6000;
---laranja-claro: #FFA559;
---bege: #FFE6C7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: var(--fonte-secundaria);
-    background-color: var(--preto);
-    color: var(--branco);
-    margin: 0;
+    background-color: var(--off-white);
+    color: var(--preto);
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: var(--fonte-principal);
 }
 
 a {
     color: var(--branco);
-    text-decoration: none;
+    font-size: 16px;
+    text-decoration: none;      
 }
+
+/* CABEÇALHO */
+
 nav {
     background-color: var(--grafite);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
 }
 
-ul {
-    
-}
-
-li {
+nav * {
     display: inline-block;
 }
 
 .icone-logo {
     width: 56px;
 }
+
+.logo-nav {
+    text-align: start;
+    width: 25%;
+}
+
+.logo-nav img, h1 {
+    vertical-align: middle;
+}
+
+h1 {
+    color: var(--branco);
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+ul {    
+    list-style: none;
+    vertical-align: middle;
+    width: 40%;
+}
+
+li {
+    padding: 10px;
+}
+
+li a:hover {
+    border-bottom: solid 2px var(--laranja);
+}
+
+.icones-nav {
+    width: 25%;
+    text-align: end;
+    display: inline-block;
+}
+.icones-nav img {
+    vertical-align: middle;
+}
+
+
+
+
+
