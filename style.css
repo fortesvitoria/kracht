@@ -71,9 +71,6 @@ form p {
     margin: 10px 50px;
 }
 
-input {}
-
-
 /* INPUTS */
 .input-entrada {
     font-family: var(--fonte-secundaria);
@@ -109,9 +106,11 @@ input:focus {
 }
 
 .btn-secundario {
+    display: inline-block;
     background-color: var(--grafite-diluido);
     color: var(--laranja);
     border: 2px solid var(--laranja);
+    text-align: center;
 }
 .btn-secundario {
     background-color: var(--grafite);
