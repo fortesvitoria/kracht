@@ -4,5 +4,10 @@ main {
     background-position: center; 
     background-repeat: no-repeat;
     height: 500px;
+    text-align: end;
 }
 
+form {
+    text-align: center;
+    width: 600px;
+}
