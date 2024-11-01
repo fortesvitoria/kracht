@@ -72,11 +72,15 @@ form p {
 }
 
 /* INPUTS */
-.input-entrada {
+.input-entrada, select {
     font-family: var(--fonte-secundaria);
     padding: 8px 8px;
     width: 380px;
     border-radius: 10px;
+}
+
+select {
+    text-align: start;
 }
 
 input:focus {
