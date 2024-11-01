@@ -1,0 +1,24 @@
+main {
+    background-image: url('../img/img-login.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: end;
+}
+
+form {
+    text-align: center;
+    /* width: 50%;
+    margin: 100px;
+    padding: 50px 0; */
+}
+
+.btn {
+    margin: 15px;
+}
+
+form a {
+    display: block;
+    text-align: start;
+    margin: 10px 50px;
+}
