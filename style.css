@@ -71,13 +71,20 @@ form p {
     margin: 10px 50px;
 }
 
+input {}
+
 
 /* INPUTS */
 .input-entrada {
     font-family: var(--fonte-secundaria);
     padding: 8px 8px;
-    width: 400px;
+    width: 380px;
     border-radius: 10px;
+}
+
+input:focus {
+    outline: 2px solid var(--laranja); 
+    outline-offset: 2px; 
 }
 
 /* BOTOES */
@@ -182,14 +189,14 @@ li a:hover {
 }
 
 hr {
-    margin: 15px;
+    margin-top: 25px;
 }
 
 /* RODAPÉ */
 footer {
     background-color: var(--grafite);
     width: 100%;
-    padding: 10px 0;
+    padding: 40px 0 0 10px;
     text-align: center;
 }
 
