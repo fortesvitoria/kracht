@@ -11,8 +11,9 @@
     --fonte-secundaria: "Open Sans", sans-serif;
 
     --preto: #000;
+    --grafite-escuro: #1a1818;
     --grafite: #2C2727;
-    --grafite-diluido: #2c2727a2;
+    --grafite-diluido: #2c2727d3;
     --branco: #FFF;
     --off-white: #F1F1F1;
     --laranja-escuro: #dc5800;
@@ -36,6 +37,11 @@ h3 {
     font-family: var(--fonte-principal);
 }
 
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
 a {
     color: var(--branco);
     font-size: 16px;
@@ -52,12 +58,25 @@ form {
     border-radius: 15px;
 }
 
+form h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+label,
+.input-entrada,
+form p {
+    display: block;
+    text-align: start;
+    margin: 10px 50px;
+}
+
+
 /* INPUTS */
 .input-entrada {
     font-family: var(--fonte-secundaria);
-    font-weight: 700;
-    padding: 8px 0;
-    width: 300px;
+    padding: 8px 8px;
+    width: 400px;
     border-radius: 10px;
 }
 
@@ -67,15 +86,15 @@ form {
     font-family: var(--fonte-secundaria);
     font-size: 16px;
     font-weight: 700;
-    padding: 8px 0;
-    width: 150px;
+    padding: 6px 0;
+    width: 185px;
     border-radius: 10px;
 }
 
 .btn-ativo {
     background-color: var(--laranja);
     color: var(--branco);
-    border: 2ps solid var(--laranja-escuro);
+    border: 2px solid var(--laranja-escuro);
 }
 
 .btn-ativo:hover {
@@ -93,7 +112,7 @@ form {
     border: 2px solid var(--laranja);
 }
 .btn-secundario:hover {
-    background-color: var(--preto);
+    background-color: var(--grafite-escuro);
 }
 
 
