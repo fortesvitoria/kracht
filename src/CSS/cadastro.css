@@ -7,14 +7,36 @@ main {
 }
 
 form {
+    display: inline-block;
     text-align: center;
     width: 70%;
     margin: 100px;
     padding: 50px 0; 
 }
 
+.dados-pessoais,
+.div-endereco {
+    display: inline-block;
+    text-align: justify;
+    width: 40%;
+}
+
+
+
 .btn {
     margin: 15px;
+}
+
+.alinha-esquerda {
+    display: inline-block;
+    text-align: start;
+    width: 45%;
+}
+
+.alinha-direita {
+    display: inline-block;
+    text-align: end;
+    width: 45%;
 }
 
 form a {

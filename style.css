@@ -65,7 +65,8 @@ form h2 {
 
 label,
 .input-entrada,
-form p {
+form p,
+select {
     display: block;
     text-align: start;
     margin: 10px 50px;
@@ -81,6 +82,7 @@ form p {
 
 select {
     text-align: start;
+    width: 400px;
 }
 
 input:focus {
