@@ -87,9 +87,14 @@ header li {
     width: 25%;
 }
 
-.logo-div img, h1 {
+
+
+.logo-div img, 
+h1,
+.div-logo-rodape h2 {
     vertical-align: middle;
 }
+
 
 h1, 
 footer h2 {
