@@ -12,6 +12,7 @@
 
 --preto: #000;
 --grafite: #2C2727;
+--grafite-diluido: #2c2727a2;
 --branco: #FFF;
 --off-white: #F1F1F1;
 --laranja-escuro: #DC5F00;
@@ -39,6 +40,16 @@ a {
     color: var(--branco);
     font-size: 16px;
     text-decoration: none;      
+}
+
+/* FORMULÁRIOS */
+
+form {
+    color: var(--branco);
+    display: inline-block;
+    background-color: var(--grafite-diluido);
+    padding: 30px;
+    border-radius: 15px;
 }
 
 

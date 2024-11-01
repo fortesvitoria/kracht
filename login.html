@@ -44,6 +44,19 @@
         </header>
         <!-- FIM CABECALHO -->
         <main>
+            <form action="envia-foirm.php" method="POST">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required autofocus>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+                <label>
+                    <input type="checkbox" name="lembrar-senha" value="lembrar-senha">
+                    Lembrar-me
+                </label>
+                <p>Esqueceu sua senha?</p>
+                <button type="submit">Cadastrar</button>
+                <button type="submit">Enviar</button>
+            </form>
         </main>
         <!-- INICIO RODAPÉ -->
         <footer>
