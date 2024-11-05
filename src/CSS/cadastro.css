@@ -15,16 +15,27 @@ form {
 }
 
 .dados-pessoais,
-.div-endereco {
+.div-endereco{
     display: inline-block;
-    text-align: justify;
+    text-align: start;
     width: 40%;
+    margin-top: 30px;
 }
 
+.div-btn {
+    display: inline-block;
+    text-align: start;
+    width: 100%;
+    margin: 15px;
+}
 
 
 .btn {
     margin: 15px;
+}
+
+.btn-ativo {
+    margin-right: 100px;
 }
 
 .alinha-esquerda {
@@ -43,4 +54,11 @@ form a {
     display: block;
     text-align: start;
     margin: 10px 50px;
+}
+
+
+.div-btn label,
+.div-btn p,
+.div-btn a {
+    margin: 10px 160px;
 }

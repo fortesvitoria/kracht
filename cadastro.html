@@ -48,53 +48,56 @@
             <form action="envia-form-cadastro.php" method="POST">
                 <h2>Criar uma conta</h2>
                 <h3>Novos Visitantes</h3>
-                <div class="dados-pessoais">
+
+                <!-- SEÇÃO DADOS PESSOAIS -->
+                <section class="dados-pessoais">
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" class="input-entrada" required autofocus>
-    
+
                     <label for="sobrenome">Sobrenome:</label>
                     <input type="text" id="sobrenome" name="sobrenome" class="input-entrada" required>
-    
+
                     <label for="email">E-mail:</label>
                     <input type="email" id="email" name="email" class="input-entrada" placeholder="seuemail@email.com"
                         required>
-    
+
                     <label for="telefone">Telefone:</label>
-                    <input type="number" id="telefone" name="telefone" class="input-entrada" placeholder="(51) 3333-3333">
-    
+                    <input type="number" id="telefone" name="telefone" class="input-entrada"
+                        placeholder="(51) 3333-3333">
+
                     <label for="celular">Celular:</label>
                     <input type="number" id="celular" name="celular" class="input-entrada" placeholder="(51) 99999-9999"
                         required>
-    
+
                     <label for="senha">Senha:</label>
                     <input type="password" id="senha" name="senha" class="input-entrada" required>
-    
+
                     <label for="confirma-senha">Confirmar Senha:</label>
                     <input type="password" id="confirma-senha" name="confirma-senha" class="input-entrada" required>
-                </div>
+                </section>
 
-
-                <div class="div-endereco">
+                <!-- SEÇÃO ENDEREÇO -->
+                <section class="div-endereco">
                     <label for="cep">CEP:</label>
                     <input type="number" id="cep" name="cep" class="input-entrada" required>
-    
+
                     <label for="logradouro">Logradouro:</label>
                     <input type="text" id="logradouro" name="logradouro" class="input-entrada" required>
-    
+
                     <label for="numero">Número:</label>
                     <input type="number" id="numero" name="numero" class="input-entrada" required>
-    
+
                     <label for="complemento">Complemento:</label>
                     <input type="text" id="complemento" name="complemento" class="input-entrada" required>
-    
+
                     <label for="bairro">Bairro:</label>
                     <input type="text" id="bairro" name="bairro" class="input-entrada" required>
-    
+
                     <label for="cidade">Cidade:</label>
                     <input type="text" id="cidade" name="cidade" class="input-entrada" required>
-    
+
                     <label for="estados">Escolha um estado:</label>
-    
+
                     <select name="estados" id="estados">
                         <option value="AC">Selecione seu estado</option>
                         <option value="AC">Acre (AC)</option>
@@ -125,29 +128,29 @@
                         <option value="SE">Sergipe (SE)</option>
                         <option value="TO">Tocantins (TO)</option>
                     </select>
-                </div>
-
-                <div class="div-bottom">
+                </section>
+                <!-- SEÇÃO BOTOES -->
+                <section class="div-btn">
                     <label>
                         <input type="checkbox" name="novidades" value="novidades">
                         Quero receber novidades no meu e-mail
                     </label>
                     <a href="#">Por favor, revise nosso Política de privacidade</a>
-    
+
                     <label>
                         <input type="checkbox" name="aceito-termos" value="aceito-termos">
-                        Li e aceito a política de privacidade 
+                        Li e aceito a política de privacidade
                     </label>
-    
+
                     <p>Já possui cadastro?</p>
-                        <div class="alinha-esquerda">
-                            <a href="login.html" class="btn-secundario btn">Login</a>
-                        </div>
+                    <div class="alinha-esquerda">
+                        <a href="login.html" class="btn-secundario btn">Login</a>
+                    </div>
                     <div class="alinha-direita">
                         <button type="submit" class="btn-ativo btn">Cadastrar</button>
-                    </div>    
-                   
-                </div>
+                    </div>
+
+                </section>
             </form>
             <!-- FIM FORMULARIO -->
         </main>
