@@ -2,6 +2,18 @@
 .estilo-bikes {
     background-color: var(--grafite);
     border-radius: 20px;
+    margin: 60px 0;
+}
+
+.bike-esquerda,
+.bike-direta {    
+    display: inline-block;
+}
+
+.estilo-bikes img {
+    width: 450px;
+    margin: 15px;
+    border-radius: 20px;
 }
 
 /* CSS SECAO VIDEO */
