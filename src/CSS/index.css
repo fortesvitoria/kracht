@@ -48,26 +48,23 @@
 }
 
 .estilo-bikes .faixa-estrada {
-    top: 414px;
+    top: 416px;
     left: 15px;
 }
 .estilo-bikes .faixa-urbana {
-    top: 829px;
+    top: 830px;
     left: 15px;
 }
 
 .estilo-bikes .faixa-mtb {
-    top: 414px;
-    left: 649px;
+    top: 416px;
+    left: 650px;
 }
 
 .estilo-bikes .faixa-eletrica {
-    top: 829px;
-    left: 649px;
+    top: 830px;
+    left: 650px;
 }
-
-
-
 
 
 /* CSS SECAO VIDEO */
