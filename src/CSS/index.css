@@ -1,3 +1,26 @@
-main {
-    height: 300px;
+.secao-contato {
+    background-color: var(--laranja);
+    border-radius: 50px 50px 0 0;
+    padding: 20px;
+
+}
+
+.secao-contato h2 {
+    text-transform: uppercase;
+}
+
+.secao-contato p {
+    font-weight: 600;
+}
+
+.dados-contatos p,
+.dados-contatos img,
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.icone-secao-contato {
+    width: 32px;
 }
