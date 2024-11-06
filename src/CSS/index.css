@@ -1,3 +1,25 @@
+/* CSS SECAO CARDS COM ESTILO DE BIKES */
+.estilo-bikes {
+    background-color: var(--grafite);
+    border-radius: 20px;
+}
+
+/* CSS SECAO VIDEO */
+.secao-video {
+    margin: 30px;
+}
+.secao-video h2 {
+    color: var(--laranja);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.video-container {
+    text-align: center;
+}
+
+/* CSS SECAO CONTATOS */
+
 .secao-contato {
     background-color: var(--laranja);
     border-radius: 50px 50px 0 0;
