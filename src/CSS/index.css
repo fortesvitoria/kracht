@@ -1,7 +1,8 @@
 .secao-contato {
     background-color: var(--laranja);
     border-radius: 50px 50px 0 0;
-    padding: 20px;
+    padding: 40px 80px;
+    text-align: center;
 
 }
 
@@ -13,14 +14,39 @@
     font-weight: 600;
 }
 
-.dados-contatos p,
-.dados-contatos img,
-span {
+.img-contato,
+.dados-contatos {
     display: inline-block;
-    vertical-align: middle;
+    width: 45%;
 }
 
+.img-loja {
+    width: 600px;    
+    border-radius: 20px;
+}
+
+span {
+    display: block;
+}
+
+.dados-contatos p,
+.dados-contatos img {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.dados-contatos {
+    text-align: start;
+    vertical-align: top;
+    padding-left: 20px;
+}
 
 .icone-secao-contato {
-    width: 32px;
+    width: 24px;
+}
+
+iframe {
+    margin-top: 20px;
+    border-radius: 20px;
 }
