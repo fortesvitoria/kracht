@@ -80,13 +80,17 @@ select {
     border-radius: 10px;
 }
 
+input {
+    border: 2px solid var(--laranja)
+}
+
 select {
     text-align: start;
     width: 400px;
 }
 
 input:focus {
-    outline: 2px solid var(--laranja); 
+    outline: 2px solid var(--off-white); 
     outline-offset: 2px; 
 }
 
