@@ -1,10 +1,37 @@
 /* SEÇÃO CAROUSEL */
 .carousel-info-bike {
-    width: 600px;
+    width: 1550px;
     margin: 0 auto;
 }
 .carousel-info-bike img {
-    width: 600px;
+    width: 1550px;
+}
+
+.artigo-info-bike {    
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+}
+
+.fundo-info-bike {
+    background-color: var(--grafite-diluido);
+    color: var(--off-white);   
+    width: 450px;
+    padding: 30px;
+    margin: 80px;
+    border-radius: 20px;
+}
+
+.artigo-info-bike h2{
+    padding-bottom:20px;
+    text-transform: uppercase;
+}
+.artigo-info-bike p {
+    text-align: justify;
+}
+
+.artigo-info-bike .btn {
+    margin: auto 0;
 }
 
 
