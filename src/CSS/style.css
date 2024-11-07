@@ -188,6 +188,10 @@ footer h2 {
     display: inline-block;
 }
 
+li a {
+    border-bottom: solid 2px transparent;
+}
+
 li a:hover {
     border-bottom: solid 2px var(--laranja);
 }

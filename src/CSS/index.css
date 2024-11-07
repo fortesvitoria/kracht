@@ -1,8 +1,12 @@
-/* SEÇÃO CARROUSEL */
-.figure-info-bike img {
-    width: 400px;
+/* SEÇÃO CAROUSEL */
+.carousel-info-bike {
+    width: 600px;
+    margin: 0 auto;
 }
 
+.carousel-info-bike img {
+    width: 600px;
+}
 
 
 /* CSS SECAO CARDS COM ESTILO DE BIKES */
