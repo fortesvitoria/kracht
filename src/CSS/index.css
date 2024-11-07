@@ -1,3 +1,10 @@
+/* SEÇÃO CARROUSEL */
+.figure-info-bike img {
+    width: 400px;
+}
+
+
+
 /* CSS SECAO CARDS COM ESTILO DE BIKES */
 .estilo-bikes {
     background-color: var(--grafite);
