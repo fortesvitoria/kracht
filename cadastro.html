@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -43,6 +43,8 @@
             <!-- FIM NAV -->
         </header>
         <!-- FIM CABECALHO -->
+
+        <!-- INICIO SECAO PRINCIPAL -->
         <main>
             <!-- INICIO FORMULARIO -->
             <form action="envia-form-cadastro.php" method="POST">
@@ -50,7 +52,7 @@
                 <h3>Novos Visitantes</h3>
 
                 <!-- SEÇÃO DADOS PESSOAIS -->
-                <section class="dados-pessoais">
+                <div class="dados-pessoais">
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" class="input-entrada" required autofocus>
 
@@ -74,10 +76,9 @@
 
                     <label for="confirma-senha">Confirmar Senha:</label>
                     <input type="password" id="confirma-senha" name="confirma-senha" class="input-entrada" required>
-                </section>
-
+                </div>
                 <!-- SEÇÃO ENDEREÇO -->
-                <section class="div-endereco">
+                <div class="div-endereco">
                     <label for="cep">CEP:</label>
                     <input type="number" id="cep" name="cep" class="input-entrada" required>
 
@@ -128,9 +129,9 @@
                         <option value="SE">Sergipe (SE)</option>
                         <option value="TO">Tocantins (TO)</option>
                     </select>
-                </section>
+                </div>
                 <!-- SEÇÃO BOTOES -->
-                <section class="div-btn">
+                <div class="div-btn">
                     <label>
                         <input type="checkbox" name="novidades" value="novidades">
                         Quero receber novidades no meu e-mail
@@ -150,14 +151,16 @@
                         <button type="submit" class="btn-ativo btn">Cadastrar</button>
                     </div>
 
-                </section>
+                </div>
             </form>
             <!-- FIM FORMULARIO -->
         </main>
+        <!-- FIM SECAO PRINCIPAL -->
+
         <!-- INICIO RODAPÉ -->
         <footer>
             <!-- SEÇÃO SUPERIOR DO FOOTER -->
-            <section class="secao-superior-footer">
+            <div class="secao-superior-footer">
                 <!-- INICIO SEÇÃO LOGO E REDES -->
                 <div class="div-logo-rodape">
                     <!-- LOGO -->
@@ -169,13 +172,33 @@
                     </div>
                     <!-- ICONES -->
                     <div class="icones-redes">
-                        <a href="https://github.com/fortesvitoria/kracht"><img src="src/img/icone-git.svg"
-                                alt="icone github"></a>
-                        <a href="https://facebook.com"><img src="src/img/icone-facebook.svg" alt="iconefacebook"></a>
-                        <a href="https://instagram.com"><img src="src/img/icone-instagram.svg"
-                                alt="icone instagram"></a>
-                        <a href="https://youtube.com"><img src="src/img/icone-youtube.svg" alt="icone youtube"></a>
-                        <a href="https://tiktok.com"><img src="src/img/icone-tiktok.svg" alt="icone tiktok"></a>
+                        <ul class="icone-links-ul">
+                            <li class="icone-links-li">
+                                <a href="https://github.com/fortesvitoria/kracht">
+                                    <img src="src/img/icone-git.svg" alt="icone github">
+                                </a>
+                            </li>
+                            <li class="icone-links-li">
+                                <a href="https://facebook.com">
+                                    <img src="src/img/icone-facebook.svg" alt="iconefacebook">
+                                </a>
+                            </li>
+                            <li class="icone-links-li">
+                                <a href="https://instagram.com">
+                                    <img src="src/img/icone-instagram.svg" alt="icone instagram">
+                                </a>
+                            </li>
+                            <li class="icone-links-li">
+                                <a href="https://youtube.com">
+                                    <img src="src/img/icone-youtube.svg" alt="icone youtube">
+                                </a>
+                            </li>
+                            <li class="icone-links-li">
+                                <a href="https://tiktok.com">
+                                    <img src="src/img/icone-tiktok.svg" alt="icone tiktok">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <!-- FIM SEÇÃO LOGO E REDES -->
@@ -223,10 +246,10 @@
                     </ul>
                 </div>
                 <!-- FIM SEÇÃO LINKS-->
-            </section>
+            </div>
             <hr>
             <!-- SEÇÃO INFERIOR DO FOOTER -->
-            <section class="secao-inferior-footer">
+            <div class="secao-inferior-footer">
                 <div class="direitos-autorais">
                     <p>© Vitória Fortes 2024</p>
                 </div>
@@ -236,7 +259,7 @@
                         <img src="src/img/icone-brasil.png" alt="icone da bandeira do Brasil" class="icone-idioma">
                     </a>
                 </div>
-            </section>
+            </div>
         </footer>
         <!-- FIM RODAPÉ -->
     </div>
