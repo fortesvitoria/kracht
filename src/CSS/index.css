@@ -49,11 +49,27 @@
     box-shadow: 0px 4px 8px var(--shadow);
     padding: 20px;
     margin: 20px;
-    
+    color: var(--preto);
 }
 .img-bike {
     width: 300px;    
     margin: 10px auto;
+}
+
+.secao-valor {
+    text-align: end;
+}
+
+.secao-valor img, 
+.secao-valor p{
+    display: inline-block;    
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.icone-cor {
+    width: 24px;
+    color:#1673ff;
 }
 
 
