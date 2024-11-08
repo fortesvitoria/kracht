@@ -41,6 +41,21 @@
 
 }
 
+/* SEÇÃO CAROUSEL BIKES */
+.div-img-bike {
+    width: 350px;
+    background-color: var(--branco);
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px var(--shadow);
+    padding: 20px;
+    margin: 20px;
+    
+}
+.img-bike {
+    width: 300px;    
+    margin: 10px auto;
+}
+
 
 /* CSS SECAO CARDS COM ESTILO DE BIKES */
 .estilo-bikes {
