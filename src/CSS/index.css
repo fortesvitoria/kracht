@@ -48,11 +48,11 @@
     text-align: center;
     margin-top: 40px;
 }
+
 /* SEÇÃO CAROUSEL BIKES */
 .carousel-bikes {
     margin: 20px 0 ;
 }
-
 .div-img-bike {
     width: 500px;
     background-color: var(--branco);
@@ -66,16 +66,35 @@
     width: 350px;    
     margin: 10px auto;
 }
-
 .secao-valor img, 
 .secao-valor p{
     display: inline-block;    
     vertical-align: middle;
     padding: 5px;
 }
-
 .icone-cor {
     width: 24px;
+}
+
+/* SEÇÃO CAROUSEL ROUPAS */
+.carousel-roupas {
+    margin: 20px 0 ;
+
+    color: #1052a8;
+}
+
+.div-img-roupas {
+    width: 300px;
+    background-color: var(--branco);
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px var(--shadow);
+    padding: 20px;
+    margin: 20px;
+    color: var(--preto);
+}
+.img-roupas {
+    width: 200px;    
+    margin: 10px auto;
 }
 
 
