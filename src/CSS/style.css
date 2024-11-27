@@ -24,6 +24,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 
 body {
@@ -240,6 +241,9 @@ margin: 10px 0;
 padding: 0 8px;
 }
 
+.icone-links-li img {
+    fill: red;
+}
 
 footer .logo-div {
     width: 100%;
