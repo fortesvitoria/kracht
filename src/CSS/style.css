@@ -21,10 +21,12 @@
     --shadow: rgba(0, 0, 0, 0.226);
 }
 
+@media (min-width: 1280px) {
+
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body {
@@ -317,4 +319,6 @@ li .link-footer {
     text-transform: uppercase;
     width: 46%;
     text-align: end;
+}
+
 }
