@@ -195,7 +195,7 @@
         border-bottom: solid 2px transparent;
     }
 
-    F li a:hover {
+    li a:hover {
         border-bottom: solid 2px var(--laranja);
     }
 
