@@ -207,6 +207,10 @@
         
     }
 
+    .horario-atendimento {
+        margin-bottom: 25px;
+    }
+
     .secao-contato h2 {
         text-transform: uppercase;
     }
@@ -239,6 +243,14 @@
 
     .icone-secao-contato {
         width: 24px;
+    }
+
+    span {
+        display: block;
+    }
+
+    .dados-contatos ion-icon {
+        vertical-align: middle;
     }
 
     iframe {
