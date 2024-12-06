@@ -191,11 +191,11 @@
         display: inline-block;
     }
 
-    li a {
+    .link-li a {
         border-bottom: solid 2px transparent;
     }
 
-    li a:hover {
+    .link-li a:hover {
         border-bottom: solid 2px var(--laranja);
     }
 
@@ -251,7 +251,7 @@
     }
 
     .icone-footer:hover {
-        fill: var(--laranja-escuro);
+        fill: var(--laranja-escuro);        
     }
 
 
