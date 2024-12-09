@@ -32,40 +32,31 @@ form {
 
 .div-btn {
     display: inline-block;
-    text-align: start;
-    width: 100%;
-    margin: 15px;
+    width: 80%;
 }
 
-.btn {
-    margin: 15px;
-}
 
-.btn-ativo {
-    margin-right: 100px;
-}
 
 .alinha-esquerda {
     display: inline-block;
     text-align: start;
-    width: 45%;
+    width: 49%;
 }
 
 .alinha-direita {
     display: inline-block;
     text-align: end;
-    width: 45%;
+    width: 49%;
 }
 
 form a {
     display: block;
     text-align: start;
-    margin: 10px 50px;
 }
 
 
 .div-btn label,
 .div-btn p,
 .div-btn a {
-    margin: 10px 160px;
+    margin: 5px auto;
 }
