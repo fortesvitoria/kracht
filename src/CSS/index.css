@@ -20,11 +20,16 @@
         background-color: var(--grafite-diluido);
         color: var(--off-white);
         width: 450px;
-        height: 380px;
+        height: 400px;
         padding: 30px;
         margin: 80px;
         border-radius: 20px;
         box-shadow: 0px 4px 8px var(--shadow);
+    }
+
+    .fundo-info-bike a {
+        position: absolute;
+        top: 400px;
     }
 
     .artigo-info-bike h2 {
