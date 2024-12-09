@@ -166,6 +166,15 @@
         padding: 10px;
     }
 
+    .icone-link {
+        fill: var(--laranja);
+        font-size: 36px;
+    }
+
+    .icone-link:hover {
+        fill: var(--laranja-escuro);        
+    }
+
     /* CABEÇALHO E RODAPÉ*/
 
     .icone-logo {
