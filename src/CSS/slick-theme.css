@@ -81,6 +81,7 @@
 {
     left: 10px;
 }
+
 [dir='rtl'] .slick-prev
 {
     right: 400px;
