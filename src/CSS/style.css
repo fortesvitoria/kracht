@@ -16,7 +16,7 @@
     --grafite-diluido: #2c2727d3;
     --branco: #FFF;
     --off-white: #F1F1F1;
-    --laranja-escuro: #dc5800;
+    --laranja-escuro: #ff5100;
     --laranja: #FF6000;
     --shadow: rgba(0, 0, 0, 0.226);
 }
@@ -166,16 +166,9 @@
         padding: 10px;
     }
 
-    .icone-link {
-        fill: var(--laranja);
-        font-size: 36px;
-    }
-
-    .icone-link:hover {
-        fill: var(--laranja-escuro);        
-    }
 
     /* CABEÇALHO E RODAPÉ*/
+
 
     .icone-logo {
         width: 56px;
@@ -218,6 +211,15 @@
         vertical-align: middle;
     }
 
+    .icone-link {
+        fill: var(--laranja);
+        font-size: 36px;
+    }
+
+    .icone-link:hover {
+        fill: var(--laranja-escuro);        
+    }
+
     hr {
         margin-top: 25px;
     }
@@ -253,16 +255,6 @@
         margin: 10px 0;
         padding: 0 8px;
     }
-
-    .icone-footer {
-        fill: var(--laranja);
-        font-size: 36px;
-    }
-
-    .icone-footer:hover {
-        fill: var(--laranja-escuro);        
-    }
-
 
     footer .logo-div {
         width: 100%;
